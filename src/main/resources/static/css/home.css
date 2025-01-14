@@ -1,0 +1,13 @@
+/* Charset declaration (if necessary for the file encoding) */
+@charset "ISO-8859-1";
+
+/* Card shadow class */
+.card-sh {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Category div shadow class */
+.cat-div {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

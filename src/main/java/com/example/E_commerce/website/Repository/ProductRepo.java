@@ -1,0 +1,17 @@
+package com.example.E_commerce.website.Repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+import com.example.E_commerce.website.model.Product;
+
+
+public interface ProductRepo extends JpaRepository<Product,Integer> {
+
+     List<Product> findByIsActiveFalse();
+
+    List<Product> findByCategory(String category);
+
+}
